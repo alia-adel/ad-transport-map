@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.card>.list-group>.list-group-item {
+    color: hsla(208, 100%, 45%, 1);
+}
+
+.card>.list-group>.list-group-item:hover {
+    background-color: hsla(0, 0%, 86%, 1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card>.list-group>.list-group-item.active {
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(211, 100%, 50%, 0.63);
+    border-radius: 0 !important;
+}
+
+.map-container {
+    height: 100%;
+    min-height: 450px;
+    max-height: 100vh;
+}
+
+.map-container #map {
+    height: 100%;
+}
+
+.map-ctrl-outer {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.map-ctrl-inner {
+    color: rgb(25, 25, 25);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 38px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.map-ctrl-outer:hover, .map-ctrl-inner:hover {
+    color: rgba(128, 128, 128, 0.78);
+}
+
+#busStopsSection {
+    display: none;
+}

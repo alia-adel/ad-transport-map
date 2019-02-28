@@ -1,0 +1,2421 @@
+[{
+    "Id": "auh:11005:P:H:8q4",
+    "Name": "City Bus 005",
+    "Description": "Al Zahiyah, Al Falah St / Shk Zayed Bin Sultan St",
+    "Number": "005",
+    "Destination": "Al Zahiyah, Al Falah St / Shk Zayed Bin Sultan St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11005:P:R:8q4",
+    "Name": "City Bus 005",
+    "Description": "St 18 / Marina Mall",
+    "Number": "005",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11007:P:H:8q4",
+    "Name": "City Bus 007",
+    "Description": "Al Zahiyah, Al Falah St / Shk Zayed Bin Sultan St",
+    "Number": "007",
+    "Destination": "Al Zahiyah, Al Falah St / Shk Zayed Bin Sultan St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11007:P:R:8q4",
+    "Name": "City Bus 007",
+    "Description": "St 18 / Marina Mall",
+    "Number": "007",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11008:P:H:8q4",
+    "Name": "City Bus 008",
+    "Description": "Fish Market",
+    "Number": "008",
+    "Destination": "Fish Market",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11008:P:R:8q4",
+    "Name": "City Bus 008",
+    "Description": "St 5 /Abu Dhabi Fund for Development",
+    "Number": "008",
+    "Destination": "St 5 /Abu Dhabi Fund for Development",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11009:P:H:8q4",
+    "Name": "City Bus 009",
+    "Description": "St 20 / New Mina Souq",
+    "Number": "009",
+    "Destination": "St 20 / New Mina Souq",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11009:P:R:8q4",
+    "Name": "City Bus 009",
+    "Description": "St 18 / Marina Mall",
+    "Number": "009",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11011:P:H:8q4",
+    "Name": "City Bus 011",
+    "Description": "St 25 / Al Mina Center",
+    "Number": "011",
+    "Destination": "St 25 / Al Mina Center",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11011:P:R:8q4",
+    "Name": "City Bus 011",
+    "Description": "St 18 / Marina Mall",
+    "Number": "011",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11020:P:H:8q4",
+    "Name": "City Bus 020",
+    "Description": "Al Muntazah South",
+    "Number": "020",
+    "Destination": "Al Muntazah South",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11020:P:R:8q4",
+    "Name": "City Bus 020",
+    "Description": "St 18 / Marina Mall",
+    "Number": "020",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11021:P:H:8q4",
+    "Name": "City Bus 021",
+    "Description": "Al Maqta, Al Maqta St / Quran Memorization Centre",
+    "Number": "021",
+    "Destination": "Al Maqta, Al Maqta St / Quran Memorization Centre",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11021:P:R:8q4",
+    "Name": "City Bus 021",
+    "Description": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Number": "021",
+    "Destination": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11022:P:H:8q4",
+    "Name": "City Bus 022",
+    "Description": "Al Khor St / Qaryat Al Beri Souq",
+    "Number": "022",
+    "Destination": "Al Khor St / Qaryat Al Beri Souq",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11022:P:R:8q4",
+    "Name": "City Bus 022",
+    "Description": "St 18 / Marina Mall",
+    "Number": "022",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11023:P:H:8q4",
+    "Name": "City Bus 023",
+    "Description": "Abu Dhabi Gate City, Armed Forces Cooperative Society",
+    "Number": "023",
+    "Destination": "Abu Dhabi Gate City, Armed Forces Cooperative Society",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11023:P:R:8q4",
+    "Name": "City Bus 023",
+    "Description": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Number": "023",
+    "Destination": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11026:P:H:8q4",
+    "Name": "City Bus 026",
+    "Description": "Khalifa Park",
+    "Number": "026",
+    "Destination": "Khalifa Park",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11026:P:R:8q4",
+    "Name": "City Bus 026",
+    "Description": "St 18 / Marina Mall",
+    "Number": "026",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11033:P:H:8q4",
+    "Name": "City Bus 033",
+    "Description": "Al Rawdhah, St 3 /  ADNEC",
+    "Number": "033",
+    "Destination": "Al Rawdhah, St 3 /  ADNEC",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11033:P:R:8q4",
+    "Name": "City Bus 033",
+    "Description": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Number": "033",
+    "Destination": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11034:P:H:8q4",
+    "Name": "City Bus 034",
+    "Description": "Al Nawfal St / Abu Dhabi Courts",
+    "Number": "034",
+    "Destination": "Al Nawfal St / Abu Dhabi Courts",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11034:P:R:8q4",
+    "Name": "City Bus 034",
+    "Description": "Corniche St / Emirates Palace Hotel",
+    "Number": "034",
+    "Destination": "Corniche St / Emirates Palace Hotel",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11040:P:H:8q4",
+    "Name": "City Bus 040",
+    "Description": "Al Muntazah South",
+    "Number": "040",
+    "Destination": "Al Muntazah South",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11040:P:R:8q4",
+    "Name": "City Bus 040",
+    "Description": "Al Maryah Island",
+    "Number": "040",
+    "Destination": "Al Maryah Island",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11041:P:H:8q4",
+    "Name": "City Bus 041",
+    "Description": "Al Rawdhah, St 3 /  ADNEC",
+    "Number": "041",
+    "Destination": "Al Rawdhah, St 3 /  ADNEC",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11041:P:R:8q4",
+    "Name": "City Bus 041",
+    "Description": "Al Zahiyah, AL Mina St / Corniche Hospital",
+    "Number": "041",
+    "Destination": "Al Zahiyah, AL Mina St / Corniche Hospital",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11042:P:H:8q4",
+    "Name": "City Bus 042",
+    "Description": "Al Nawfal St / Abu Dhabi Courts",
+    "Number": "042",
+    "Destination": "Al Nawfal St / Abu Dhabi Courts",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11042:P:R:8q4",
+    "Name": "City Bus 042",
+    "Description": "Al Maryah Island",
+    "Number": "042",
+    "Destination": "Al Maryah Island",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11043:P:H:8q4",
+    "Name": "City Bus 043",
+    "Description": "Shk Rashid Bin Saeed St / Mushrif Mall",
+    "Number": "043",
+    "Destination": "Shk Rashid Bin Saeed St / Mushrif Mall",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11043:P:R:8q4",
+    "Name": "City Bus 043",
+    "Description": "Al Zahiyah, AL Mina St / Corniche Hospital",
+    "Number": "043",
+    "Destination": "Al Zahiyah, AL Mina St / Corniche Hospital",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11044:P:H:8q4",
+    "Name": "City Bus 044",
+    "Description": "St 15 / Armed Forces Officers Club",
+    "Number": "044",
+    "Destination": "St 15 / Armed Forces Officers Club",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11044:P:R:8q4",
+    "Name": "City Bus 044",
+    "Description": "St 25 / Al Mina Center",
+    "Number": "044",
+    "Destination": "St 25 / Al Mina Center",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11054:P:H:8q4",
+    "Name": "City Bus 054",
+    "Description": "Saif Ghobash St  / Sheikh Zayed Grand Mosque",
+    "Number": "054",
+    "Destination": "Saif Ghobash St  / Sheikh Zayed Grand Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11054:P:R:8q4",
+    "Name": "City Bus 054",
+    "Description": "Fish Market",
+    "Number": "054",
+    "Destination": "Fish Market",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11055:P:H:8q4",
+    "Name": "City Bus 055",
+    "Description": "Al Muntazah South",
+    "Number": "055",
+    "Destination": "Al Muntazah South",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11055:P:R:8q4",
+    "Name": "City Bus 055",
+    "Description": "Al Zahiyah, AL Mina St / Corniche Hospital",
+    "Number": "055",
+    "Destination": "Al Zahiyah, AL Mina St / Corniche Hospital",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11056:P:H:8q4",
+    "Name": "City Bus 056",
+    "Description": "Khalifa Park",
+    "Number": "056",
+    "Destination": "Khalifa Park",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11056:P:R:8q4",
+    "Name": "City Bus 056",
+    "Description": "St 20 / New Mina Souq",
+    "Number": "056",
+    "Destination": "St 20 / New Mina Souq",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11063:P:H:8q4",
+    "Name": "City Bus 063",
+    "Description": "Al Reem Island, Al Reem Mall",
+    "Number": "063",
+    "Destination": "Al Reem Island, Al Reem Mall",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11063:P:R:8q4",
+    "Name": "City Bus 063",
+    "Description": "St 18 / Marina Mall",
+    "Number": "063",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11065:P:H:8q4",
+    "Name": "City Bus 065",
+    "Description": "Al Reem Island, AL Reem City Of Lights",
+    "Number": "065",
+    "Destination": "Al Reem Island, AL Reem City Of Lights",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11065:P:R:8q4",
+    "Name": "City Bus 065",
+    "Description": "St 18 / Marina Mall",
+    "Number": "065",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11067:P:H:8q4",
+    "Name": "City Bus 067",
+    "Description": "Al Reem Island, AL Reem Shams",
+    "Number": "067",
+    "Destination": "Al Reem Island, AL Reem Shams",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11067:P:R:8q4",
+    "Name": "City Bus 067",
+    "Description": "St 18 / Marina Mall",
+    "Number": "067",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11069:P:H:8q4",
+    "Name": "City Bus 069",
+    "Description": "Al Maryah Island",
+    "Number": "069",
+    "Destination": "Al Maryah Island",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11069:P:R:8q4",
+    "Name": "City Bus 069",
+    "Description": "St 18 / Marina Mall",
+    "Number": "069",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11071:P:H:8q4",
+    "Name": "City Bus 071",
+    "Description": "Al Reem Island, AL Reem Shams",
+    "Number": "071",
+    "Destination": "Al Reem Island, AL Reem Shams",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11071:P:R:8q4",
+    "Name": "City Bus 071",
+    "Description": "St 18 / Marina Mall",
+    "Number": "071",
+    "Destination": "St 18 / Marina Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11074:P:H:8q4",
+    "Name": "City Bus 074",
+    "Description": "Al Muntazah South",
+    "Number": "074",
+    "Destination": "Al Muntazah South",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11074:P:R:8q4",
+    "Name": "City Bus 074",
+    "Description": "Al Reem Island, AL Reem Shams",
+    "Number": "074",
+    "Destination": "Al Reem Island, AL Reem Shams",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11094:P:H:8q4",
+    "Name": "City Bus 094",
+    "Description": "Al Rowdah, St 3 / Wahat Al Karamah",
+    "Number": "094",
+    "Destination": "Al Rowdah, St 3 / Wahat Al Karamah",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:11094:P:R:8q4",
+    "Name": "City Bus 094",
+    "Description": "Saadiyat Island,Saadiyat Louvre",
+    "Number": "094",
+    "Destination": "Saadiyat Island,Saadiyat Louvre",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:110X2:P:H:8q4",
+    "Name": "City Bus X02",
+    "Description": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Number": "X02",
+    "Destination": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:110X2:P:R:8q4",
+    "Name": "City Bus X02",
+    "Description": "Al Maqta, AL MAQTA E22 / Bus Interchange",
+    "Number": "X02",
+    "Destination": "Al Maqta, AL MAQTA E22 / Bus Interchange",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:110X3:P:H:8q4",
+    "Name": "City Bus X03",
+    "Description": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Number": "X03",
+    "Destination": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:110X3:P:R:8q4",
+    "Name": "City Bus X03",
+    "Description": "Al Maqta, AL MAQTA E22 / Bus Interchange",
+    "Number": "X03",
+    "Destination": "Al Maqta, AL MAQTA E22 / Bus Interchange",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:110X4:P:H:8q4",
+    "Name": "City Bus X04",
+    "Description": "Al Mina Street / Corniche Hospital",
+    "Number": "X04",
+    "Destination": "Al Mina Street / Corniche Hospital",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:110X4:P:R:8q4",
+    "Name": "City Bus X04",
+    "Description": "Al Maqta, AL MAQTA E22 / Bus Interchange",
+    "Number": "X04",
+    "Destination": "Al Maqta, AL MAQTA E22 / Bus Interchange",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:110X5:P:H:8q4",
+    "Name": "City Bus X05",
+    "Description": "Al Mina Street / Corniche Hospital",
+    "Number": "X05",
+    "Destination": "Al Mina Street / Corniche Hospital",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:110X5:P:R:8q4",
+    "Name": "City Bus X05",
+    "Description": "Al Maqta, AL MAQTA E22 / Bus Interchange",
+    "Number": "X05",
+    "Destination": "Al Maqta, AL MAQTA E22 / Bus Interchange",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:120A1:P:H:8q4",
+    "Name": "Exp Bus A1",
+    "Description": "Al Firdous St / City Air Terminal",
+    "Number": "A1",
+    "Destination": "Al Firdous St / City Air Terminal",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:120A1:P:R:8q4",
+    "Name": "Exp Bus A1",
+    "Description": "Abu Dhabi International Airport, Terminal 1+3",
+    "Number": "A1",
+    "Destination": "Abu Dhabi International Airport, Terminal 1+3",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:120A2:P:H:8q4",
+    "Name": "Reg Bus A2",
+    "Description": "Khalifa St / Shk Zayed Bin Sultan St",
+    "Number": "A2",
+    "Destination": "Khalifa St / Shk Zayed Bin Sultan St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:120A2:P:R:8q4",
+    "Name": "Reg Bus A2",
+    "Description": "Abu Dhabi International Airport, Terminal 1+3",
+    "Number": "A2",
+    "Destination": "Abu Dhabi International Airport, Terminal 1+3",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12101:P:H:8q4",
+    "Name": "City Bus 101",
+    "Description": "Liwa St / Downtown",
+    "Number": "101",
+    "Destination": "Liwa St / Downtown",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12101:P:R:8q4",
+    "Name": "City Bus 101",
+    "Description": "Dalma Mall Main Entrance",
+    "Number": "101",
+    "Destination": "Dalma Mall Main Entrance",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12102:P:H:8q4",
+    "Name": "City Bus 102",
+    "Description": "Sultan Bin Zayed St / Khalifa St",
+    "Number": "102",
+    "Destination": "Sultan Bin Zayed St / Khalifa St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12102:P:R:8q4",
+    "Name": "City Bus 102",
+    "Description": "Mohammed Bin Zayed City,  St 26 / St 18",
+    "Number": "102",
+    "Destination": "Mohammed Bin Zayed City,  St 26 / St 18",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12110:P:H:8q4",
+    "Name": "City Bus 110",
+    "Description": "Sultan Bin Zayed St / Khalifa St",
+    "Number": "110",
+    "Destination": "Sultan Bin Zayed St / Khalifa St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12110:P:R:8q4",
+    "Name": "City Bus 110",
+    "Description": "St 16 / National Petroleum Corporation",
+    "Number": "110",
+    "Destination": "St 16 / National Petroleum Corporation",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12111:P:H:8q4",
+    "Name": "City Bus 111",
+    "Description": "Sultan Bin Zayed St / Khalifa St",
+    "Number": "111",
+    "Destination": "Sultan Bin Zayed St / Khalifa St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12111:P:R:8q4",
+    "Name": "City Bus 111",
+    "Description": "St 12 / Village Mall",
+    "Number": "111",
+    "Destination": "St 12 / Village Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12120:P:H:8q4",
+    "Name": "Reg Bus 120",
+    "Description": "Saadiyat Public Beach",
+    "Number": "120",
+    "Destination": "Saadiyat Public Beach",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12120:P:R:8q4",
+    "Name": "Reg Bus 120",
+    "Description": "Al Nasr St / ADVETI",
+    "Number": "120",
+    "Destination": "Al Nasr St / ADVETI",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12121:P:H:8q4",
+    "Name": "Reg Bus 121",
+    "Description": "Saadiyat Island, Saadiyat Beach Jumeirah Hotel",
+    "Number": "121",
+    "Destination": "Saadiyat Island, Saadiyat Beach Jumeirah Hotel",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12121:P:R:8q4",
+    "Name": "Reg Bus 121",
+    "Description": "Al Nasr St / ADVETI",
+    "Number": "121",
+    "Destination": "Al Nasr St / ADVETI",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12155:P:H:8q4",
+    "Name": "Reg Bus 155",
+    "Description": "Sultan Bin Zayed St / Khalifa St",
+    "Number": "155",
+    "Destination": "Sultan Bin Zayed St / Khalifa St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12155:P:R:8q4",
+    "Name": "Reg Bus 155",
+    "Description": "Shakhbout City, Shakhbout City ADNOC",
+    "Number": "155",
+    "Destination": "Shakhbout City, Shakhbout City ADNOC",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12160:P:H:8q4",
+    "Name": "City Bus 160",
+    "Description": "Sultan Bin Zayed St / Khalifa St",
+    "Number": "160",
+    "Destination": "Sultan Bin Zayed St / Khalifa St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12160:P:R:8q4",
+    "Name": "City Bus 160",
+    "Description": "Theyab Bin Eissa St / Souq",
+    "Number": "160",
+    "Destination": "Theyab Bin Eissa St / Souq",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12170:P:H:8q4",
+    "Name": "Reg Bus 170",
+    "Description": "Saadiyat New York University",
+    "Number": "170",
+    "Destination": "Saadiyat New York University",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12170:P:R:8q4",
+    "Name": "Reg Bus 170",
+    "Description": "Al Zeina / Stop 16021",
+    "Number": "170",
+    "Destination": "Al Zeina / Stop 16021",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12175:P:H:8q4",
+    "Name": "City Bus 175",
+    "Description": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Number": "175",
+    "Destination": "Al Khalidiya, Al Bateen St / Children’s Garden",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12175:P:R:8q4",
+    "Name": "City Bus 175",
+    "Description": "Al Zeina / Stop 16021",
+    "Number": "175",
+    "Destination": "Al Zeina / Stop 16021",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12200:P:H:8q4",
+    "Name": "Reg Bus 200",
+    "Description": "Al Sader A, Shipyard",
+    "Number": "200",
+    "Destination": "Al Sader A, Shipyard",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12200:P:R:8q4",
+    "Name": "Reg Bus 200",
+    "Description": "St 33 / Maryam Bint Omran School",
+    "Number": "200",
+    "Destination": "St 33 / Maryam Bint Omran School",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12210:P:H:8q4",
+    "Name": "City Bus 210",
+    "Description": "St 10 / Abattoir",
+    "Number": "210",
+    "Destination": "St 10 / Abattoir",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12210:P:R:8q4",
+    "Name": "City Bus 210",
+    "Description": "Dalma Mall Main Entrance",
+    "Number": "210",
+    "Destination": "Dalma Mall Main Entrance",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12216:P:H:8q4",
+    "Name": "City Bus 216",
+    "Description": "Al Bahya, Al Bahya North Mosque",
+    "Number": "216",
+    "Destination": "Al Bahya, Al Bahya North Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12216:P:R:8q4",
+    "Name": "City Bus 216",
+    "Description": "Theyab Bin Eissa St / Souq",
+    "Number": "216",
+    "Destination": "Theyab Bin Eissa St / Souq",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12222:P:H:8q4",
+    "Name": "City Bus 222",
+    "Description": "Al Shahama, St 23 / Osama Bin Zaid Mosque",
+    "Number": "222",
+    "Destination": "Al Shahama, St 23 / Osama Bin Zaid Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12222:P:R:8q4",
+    "Name": "City Bus 222",
+    "Description": "Al Bahya, Al Bahya Central Mosque",
+    "Number": "222",
+    "Destination": "Al Bahya, Al Bahya Central Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12290:P:H:8q4",
+    "Name": "Reg Bus 290",
+    "Description": "Al Falah Dr / Souq Sector 1E",
+    "Number": "290",
+    "Destination": "Al Falah Dr / Souq Sector 1E",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12290:P:R:8q4",
+    "Name": "Reg Bus 290",
+    "Description": "Dalma Mall Main Entrance",
+    "Number": "290",
+    "Destination": "Dalma Mall Main Entrance",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12300:P:H:8q4",
+    "Name": "Reg Bus 300",
+    "Description": "Al Shamkha, Al Shamkha Makani Mall",
+    "Number": "300",
+    "Destination": "Al Shamkha, Al Shamkha Makani Mall",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12300:P:R:8q4",
+    "Name": "Reg Bus 300",
+    "Description": "Sultan Bin Zayed St / Khalifa St",
+    "Number": "300",
+    "Destination": "Sultan Bin Zayed St / Khalifa St",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12400:P:H:8q4",
+    "Name": "City Bus 400",
+    "Description": "St 1 / Al Rahba Hospital",
+    "Number": "400",
+    "Destination": "St 1 / Al Rahba Hospital",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12400:P:R:8q4",
+    "Name": "City Bus 400",
+    "Description": "LifeCare Hospital",
+    "Number": "400",
+    "Destination": "LifeCare Hospital",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12401:P:H:8q4",
+    "Name": "Reg Bus 401",
+    "Description": "Thamama Bin Athal Mosque",
+    "Number": "401",
+    "Destination": "Thamama Bin Athal Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12401:P:R:8q4",
+    "Name": "Reg Bus 401",
+    "Description": "St 33 / Maryam Bint Omran School",
+    "Number": "401",
+    "Destination": "St 33 / Maryam Bint Omran School",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12402:P:H:8q4",
+    "Name": "Reg Bus 402",
+    "Description": "Salama Bin Al Akwa'a Mosque",
+    "Number": "402",
+    "Destination": "Salama Bin Al Akwa'a Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12402:P:R:8q4",
+    "Name": "Reg Bus 402",
+    "Description": "St 6 / Zaid Bin Al Khatab Mosque",
+    "Number": "402",
+    "Destination": "St 6 / Zaid Bin Al Khatab Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12403:P:H:8q4",
+    "Name": "Reg Bus 403",
+    "Description": "Al Shahama, St 23 / Osama Bin Zaid Mosque",
+    "Number": "403",
+    "Destination": "Al Shahama, St 23 / Osama Bin Zaid Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12403:P:R:8q4",
+    "Name": "Reg Bus 403",
+    "Description": "St 13 / Obada Bin Al Samit Mosque",
+    "Number": "403",
+    "Destination": "St 13 / Obada Bin Al Samit Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12404:P:H:8q4",
+    "Name": "City Bus 404",
+    "Description": "Sultan Bin Zayed St / Khalifa St",
+    "Number": "404",
+    "Destination": "Sultan Bin Zayed St / Khalifa St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12404:P:R:8q4",
+    "Name": "City Bus 404",
+    "Description": "St 20 / Masjid Zaid Bin Al Mualla",
+    "Number": "404",
+    "Destination": "St 20 / Masjid Zaid Bin Al Mualla",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12405:P:H:8q4",
+    "Name": "City Bus 405",
+    "Description": "Sultan Bin Zayed St / Khalifa St",
+    "Number": "405",
+    "Destination": "Sultan Bin Zayed St / Khalifa St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12405:P:R:8q4",
+    "Name": "City Bus 405",
+    "Description": "St 12 / Souq",
+    "Number": "405",
+    "Destination": "St 12 / Souq",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12406:P:H:8q4",
+    "Name": "Reg Bus 406",
+    "Description": "Sultan Bin Zayed St / Khalifa St",
+    "Number": "406",
+    "Destination": "Sultan Bin Zayed St / Khalifa St",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12406:P:R:8q4",
+    "Name": "Reg Bus 406",
+    "Description": "St 57 / Al Miqdad Al Kindy Mosque",
+    "Number": "406",
+    "Destination": "St 57 / Al Miqdad Al Kindy Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12410:P:H:8q4",
+    "Name": "Reg Bus 410",
+    "Description": "St 7 / Mussafah Port",
+    "Number": "410",
+    "Destination": "St 7 / Mussafah Port",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12410:P:R:8q4",
+    "Name": "Reg Bus 410",
+    "Description": "LifeCare Hospital",
+    "Number": "410",
+    "Destination": "LifeCare Hospital",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12420:P:H:8q4",
+    "Name": "City Bus 420",
+    "Description": "St 10 / Abattoir",
+    "Number": "420",
+    "Destination": "St 10 / Abattoir",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12420:P:R:8q4",
+    "Name": "City Bus 420",
+    "Description": "LifeCare Hospital",
+    "Number": "420",
+    "Destination": "LifeCare Hospital",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12443:P:R:8q4",
+    "Name": "City Bus 443",
+    "Description": "Fatima College",
+    "Number": "443",
+    "Destination": "Fatima College",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12445:P:H:8q4",
+    "Name": "Reg Bus 445",
+    "Description": "Fatima College",
+    "Number": "445",
+    "Destination": "Fatima College",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12445:P:R:8q4",
+    "Name": "Reg Bus 445",
+    "Description": "Al Wathba, Al Rahman Mosque",
+    "Number": "445",
+    "Destination": "Al Wathba, Al Rahman Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12447:P:H:8q4",
+    "Name": "Reg Bus 447",
+    "Description": "Fatima College",
+    "Number": "447",
+    "Destination": "Fatima College",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12447:P:R:8q4",
+    "Name": "Reg Bus 447",
+    "Description": "St 20 / Masjid Zaid Bin Al Mualla",
+    "Number": "447",
+    "Destination": "St 20 / Masjid Zaid Bin Al Mualla",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12A10:P:H:8q4",
+    "Name": "Exp Bus A10",
+    "Description": "Abu Dhabi International Airport, Terminal 1+3",
+    "Number": "A10",
+    "Destination": "Abu Dhabi International Airport, Terminal 1+3",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12A10:P:R:8q4",
+    "Name": "Exp Bus A10",
+    "Description": "Dalma Mall Main Entrance",
+    "Number": "A10",
+    "Destination": "Dalma Mall Main Entrance",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12A20:P:H:8q4",
+    "Name": "City Bus A20",
+    "Description": "St 13 /Al Shahama Bus Depot",
+    "Number": "A20",
+    "Destination": "St 13 /Al Shahama Bus Depot",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12A20:P:R:8q4",
+    "Name": "City Bus A20",
+    "Description": "Abu Dhabi International Airport, Terminal 1+3",
+    "Number": "A20",
+    "Destination": "Abu Dhabi International Airport, Terminal 1+3",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12A40:P:H:8q4",
+    "Name": "City Bus A40",
+    "Description": "Abu Dhabi International Airport, Terminal 1+3",
+    "Number": "A40",
+    "Destination": "Abu Dhabi International Airport, Terminal 1+3",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:12A40:P:R:8q4",
+    "Name": "City Bus A40",
+    "Description": "LifeCare Hospital",
+    "Number": "A40",
+    "Destination": "LifeCare Hospital",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M1:P:H:8q4",
+    "Name": "Mini Bus M1",
+    "Description": "Mohammed Bin Zayed City, Al Sawari St / Fatima bin Mubarak Mosque",
+    "Number": "M1",
+    "Destination": "Mohammed Bin Zayed City, Al Sawari St / Fatima bin Mubarak Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M1:P:R:8q4",
+    "Name": "Mini Bus M1",
+    "Description": "Mohammed Bin Zayed City, Al Qbab St / Police Officers City Mosque",
+    "Number": "M1",
+    "Destination": "Mohammed Bin Zayed City, Al Qbab St / Police Officers City Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M2:P:H:8q4",
+    "Name": "Mini Bus M2",
+    "Description": "Mohammed Bin Zayed City, Al Sawari St / Fatima bin Mubarak Mosque",
+    "Number": "M2",
+    "Destination": "Mohammed Bin Zayed City, Al Sawari St / Fatima bin Mubarak Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M2:P:R:8q4",
+    "Name": "Mini Bus M2",
+    "Description": "St 28 / Mazyad Mall",
+    "Number": "M2",
+    "Destination": "St 28 / Mazyad Mall",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M3:P:H:8q4",
+    "Name": "Mini Bus M3",
+    "Description": "Za'mah St / MBZ City South East",
+    "Number": "M3",
+    "Destination": "Za'mah St / MBZ City South East",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M3:P:R:8q4",
+    "Name": "Mini Bus M3",
+    "Description": "Abu Dhabi University / Main Gate",
+    "Number": "M3",
+    "Destination": "Abu Dhabi University / Main Gate",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M4:P:H:8q4",
+    "Name": "Mini Bus M4",
+    "Description": "Mohammed Bin Zayed City,  St 26 / St 18",
+    "Number": "M4",
+    "Destination": "Mohammed Bin Zayed City,  St 26 / St 18",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M4:P:R:8q4",
+    "Name": "Mini Bus M4",
+    "Description": "Mohammed Bin Zayed City, Al Qawalib St / Maria Al Gibtiya Mosque",
+    "Number": "M4",
+    "Destination": "Mohammed Bin Zayed City, Al Qawalib St / Maria Al Gibtiya Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M5:P:H:8q4",
+    "Name": "Mini Bus M5",
+    "Description": "Mohammed Bin Zayed City, Al Maqta'at St / MBZ City South West",
+    "Number": "M5",
+    "Destination": "Mohammed Bin Zayed City, Al Maqta'at St / MBZ City South West",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:140M5:P:R:8q4",
+    "Name": "Mini Bus M5",
+    "Description": "Mohammed Bin Zayed City, St 67 / Al Salam Mosque",
+    "Number": "M5",
+    "Destination": "Mohammed Bin Zayed City, St 67 / Al Salam Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21900:P:H:8q4",
+    "Name": "City Bus 900",
+    "Description": "71st St  / The MarThoma Church",
+    "Number": "900",
+    "Destination": "71st St  / The MarThoma Church",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21900:P:R:8q4",
+    "Name": "City Bus 900",
+    "Description": "Ardh Al Jaw St 110 / Hili Fun City",
+    "Number": "900",
+    "Destination": "Ardh Al Jaw St 110 / Hili Fun City",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21930:P:H:8q4",
+    "Name": "City Bus 930",
+    "Description": "Al Ittihad St 119 / Al Foaa Mall",
+    "Number": "930",
+    "Destination": "Al Ittihad St 119 / Al Foaa Mall",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21930:P:R:8q4",
+    "Name": "City Bus 930",
+    "Description": "Local Road / Mosque",
+    "Number": "930",
+    "Destination": "Local Road / Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21940:P:H:8q4",
+    "Name": "City Bus 940",
+    "Description": "Al Ittihad St 119 / Al Taqwa Mosque",
+    "Number": "940",
+    "Destination": "Al Ittihad St 119 / Al Taqwa Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21940:P:R:8q4",
+    "Name": "City Bus 940",
+    "Description": "St 15 / Al Mottaqein Mosque",
+    "Number": "940",
+    "Destination": "St 15 / Al Mottaqein Mosque",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21950:P:H:8q4",
+    "Name": "City Bus 950",
+    "Description": "1st St  / Al Nabbagh Souq",
+    "Number": "950",
+    "Destination": "1st St  / Al Nabbagh Souq",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21950:P:R:8q4",
+    "Name": "City Bus 950",
+    "Description": "1st St  / Al Nabbagh Souq",
+    "Number": "950",
+    "Destination": "1st St  / Al Nabbagh Souq",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21960:P:H:8q4",
+    "Name": "City Bus 960",
+    "Description": "71st St  / The MarThoma Church",
+    "Number": "960",
+    "Destination": "71st St  / The MarThoma Church",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21960:P:R:8q4",
+    "Name": "City Bus 960",
+    "Description": "St 1 / Tawam Hospital Co-op",
+    "Number": "960",
+    "Destination": "St 1 / Tawam Hospital Co-op",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21970:P:H:8q4",
+    "Name": "City Bus 970",
+    "Description": "Park Road  / Green Mubazzarah Mosque",
+    "Number": "970",
+    "Destination": "Park Road  / Green Mubazzarah Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21970:P:R:8q4",
+    "Name": "City Bus 970",
+    "Description": "Near St 22  / Bateen West Souq",
+    "Number": "970",
+    "Destination": "Near St 22  / Bateen West Souq",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21980:P:H:8q4",
+    "Name": "City Bus 980",
+    "Description": "71st St  / The MarThoma Church",
+    "Number": "980",
+    "Destination": "71st St  / The MarThoma Church",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21980:P:R:8q4",
+    "Name": "City Bus 980",
+    "Description": "28th St   / Souq",
+    "Number": "980",
+    "Destination": "28th St   / Souq",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21990:P:H:8q4",
+    "Name": "City Bus 990",
+    "Description": "Park Road  / Ain Al Faydah",
+    "Number": "990",
+    "Destination": "Park Road  / Ain Al Faydah",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:21990:P:R:8q4",
+    "Name": "City Bus 990",
+    "Description": "St 1 / Tawam Hospital Co-op",
+    "Number": "990",
+    "Destination": "St 1 / Tawam Hospital Co-op",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22350:P:H:8q4",
+    "Name": "Exp Bus 350",
+    "Description": "Sweihan Slaughter House",
+    "Number": "350",
+    "Destination": "Sweihan Slaughter House",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22350:P:R:8q4",
+    "Name": "Exp Bus 350",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "350",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22360:P:H:8q4",
+    "Name": "City Bus 360",
+    "Description": "81th St  / Ali Hader  Al Mazrouei Mosque",
+    "Number": "360",
+    "Destination": "81th St  / Ali Hader  Al Mazrouei Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22360:P:R:8q4",
+    "Name": "City Bus 360",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "360",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22380:P:H:8q4",
+    "Name": "Exp Bus 380",
+    "Description": "Service Rd  / Al Rahman Mosque",
+    "Number": "380",
+    "Destination": "Service Rd  / Al Rahman Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22380:P:R:8q4",
+    "Name": "Exp Bus 380",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "380",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22390:P:H:8q4",
+    "Name": "City Bus 390",
+    "Description": "Service Rd  / Souq",
+    "Number": "390",
+    "Destination": "Service Rd  / Souq",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22390:P:R:8q4",
+    "Name": "City Bus 390",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "390",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22450:P:H:8q4",
+    "Name": "City Bus 450",
+    "Description": "St 3 /  Al Khaznah Souq",
+    "Number": "450",
+    "Destination": "St 3 /  Al Khaznah Souq",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22450:P:R:8q4",
+    "Name": "City Bus 450",
+    "Description": "2nd St  / Al Yahar North Interchange",
+    "Number": "450",
+    "Destination": "2nd St  / Al Yahar North Interchange",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22460:P:H:8q4",
+    "Name": "Reg Bus 460",
+    "Description": "Service Rd  / Labour Village",
+    "Number": "460",
+    "Destination": "Service Rd  / Labour Village",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22460:P:R:8q4",
+    "Name": "Reg Bus 460",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "460",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22491:P:H:8q4",
+    "Name": "City Bus 491",
+    "Description": "Service Rd  / Guidance and Protection Center Al Yahar",
+    "Number": "491",
+    "Destination": "Service Rd  / Guidance and Protection Center Al Yahar",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22491:P:R:8q4",
+    "Name": "City Bus 491",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "491",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22495:P:H:8q4",
+    "Name": "City Bus 495",
+    "Description": "Service Rd  / Sofana Bint Hatim Al Tai Mosque",
+    "Number": "495",
+    "Destination": "Service Rd  / Sofana Bint Hatim Al Tai Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22495:P:R:8q4",
+    "Name": "City Bus 495",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "495",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22496:P:H:8q4",
+    "Name": "City Bus 496",
+    "Description": "Omar Ibn Al Khattab St 106 / Abu Firas Al-Aslami Mosque",
+    "Number": "496",
+    "Destination": "Omar Ibn Al Khattab St 106 / Abu Firas Al-Aslami Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22496:P:R:8q4",
+    "Name": "City Bus 496",
+    "Description": "Service Rd  / Al Ain Poultry Farm",
+    "Number": "496",
+    "Destination": "Service Rd  / Al Ain Poultry Farm",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22550:P:H:8q4",
+    "Name": "City Bus 550",
+    "Description": "Hazzaa Ibn Sultan St  / Municipal Souq",
+    "Number": "550",
+    "Destination": "Hazzaa Ibn Sultan St  / Municipal Souq",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22550:P:R:8q4",
+    "Name": "City Bus 550",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "550",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22560:P:H:8q4",
+    "Name": "Reg Bus 560",
+    "Description": "Service Road / Saif bin Mohammed Al Nahyan Mosque",
+    "Number": "560",
+    "Destination": "Service Road / Saif bin Mohammed Al Nahyan Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22560:P:R:8q4",
+    "Name": "Reg Bus 560",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "560",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22590:P:H:8q4",
+    "Name": "City Bus 590",
+    "Description": "Zayed Bin Sultan St  / Petrol Station",
+    "Number": "590",
+    "Destination": "Zayed Bin Sultan St  / Petrol Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22590:P:R:8q4",
+    "Name": "City Bus 590",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "590",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22595:P:H:8q4",
+    "Name": "City Bus 595",
+    "Description": "Um Ghaffa St  / Khamis Al Shamsi Mosque",
+    "Number": "595",
+    "Destination": "Um Ghaffa St  / Khamis Al Shamsi Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:22595:P:R:8q4",
+    "Name": "City Bus 595",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "595",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31651:P:H:8q4",
+    "Name": "City Bus 651",
+    "Description": "Thamani Farms Mosque",
+    "Number": "651",
+    "Destination": "Thamani Farms Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31651:P:R:8q4",
+    "Name": "City Bus 651",
+    "Description": "Mezaira'a Industrial Area",
+    "Number": "651",
+    "Destination": "Mezaira'a Industrial Area",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31652:P:H:8q4",
+    "Name": "City Bus 652",
+    "Description": "Al Mariyah Farms",
+    "Number": "652",
+    "Destination": "Al Mariyah Farms",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31652:P:R:8q4",
+    "Name": "City Bus 652",
+    "Description": "Mezaira'a South",
+    "Number": "652",
+    "Destination": "Mezaira'a South",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31661:P:H:8q4",
+    "Name": "City Bus 661",
+    "Description": "Civil Defense",
+    "Number": "661",
+    "Destination": "Civil Defense",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31661:P:R:8q4",
+    "Name": "City Bus 661",
+    "Description": "MZ Police  Station",
+    "Number": "661",
+    "Destination": "MZ Police  Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31662:P:H:8q4",
+    "Name": "City Bus 662",
+    "Description": "Madinat Zayed Bus Station",
+    "Number": "662",
+    "Destination": "Madinat Zayed Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31663:P:H:8q4",
+    "Name": "City Bus 663",
+    "Description": "Madinat Zayed Hospital",
+    "Number": "663",
+    "Destination": "Madinat Zayed Hospital",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31663:P:R:8q4",
+    "Name": "City Bus 663",
+    "Description": "Madinat Zayed Bus Station",
+    "Number": "663",
+    "Destination": "Madinat Zayed Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31664:P:H:8q4",
+    "Name": "City Bus 664",
+    "Description": "Baynunah Market",
+    "Number": "664",
+    "Destination": "Baynunah Market",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31664:P:R:8q4",
+    "Name": "City Bus 664",
+    "Description": "Madinat Zayed Bus Station",
+    "Number": "664",
+    "Destination": "Madinat Zayed Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31665:P:H:8q4",
+    "Name": "City Bus 665",
+    "Description": "Khalifa Mosque",
+    "Number": "665",
+    "Destination": "Khalifa Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31665:P:R:8q4",
+    "Name": "City Bus 665",
+    "Description": "Madinat Zayed Bus Station",
+    "Number": "665",
+    "Destination": "Madinat Zayed Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31771:P:H:8q4",
+    "Name": "City Bus 771",
+    "Description": "Harmiya Residence",
+    "Number": "771",
+    "Destination": "Harmiya Residence",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31771:P:R:8q4",
+    "Name": "City Bus 771",
+    "Description": "Mirfa Bus Station",
+    "Number": "771",
+    "Destination": "Mirfa Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31861:P:H:8q4",
+    "Name": "City Bus 861",
+    "Description": "Ghayathi Farms",
+    "Number": "861",
+    "Destination": "Ghayathi Farms",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31861:P:R:8q4",
+    "Name": "City Bus 861",
+    "Description": "Ghayathi Bus Station",
+    "Number": "861",
+    "Destination": "Ghayathi Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31862:P:H:8q4",
+    "Name": "City Bus 862",
+    "Description": "Bida Al Muthawa",
+    "Number": "862",
+    "Destination": "Bida Al Muthawa",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31862:P:R:8q4",
+    "Name": "City Bus 862",
+    "Description": "Ghayathi Bus Station",
+    "Number": "862",
+    "Destination": "Ghayathi Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31863:P:H:8q4",
+    "Name": "City Bus 863",
+    "Description": "Ghayathi Industrial Area",
+    "Number": "863",
+    "Destination": "Ghayathi Industrial Area",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31863:P:R:8q4",
+    "Name": "City Bus 863",
+    "Description": "Ghayathi - LuLu Express",
+    "Number": "863",
+    "Destination": "Ghayathi - LuLu Express",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31881:P:H:8q4",
+    "Name": "City Bus 881",
+    "Description": "Jebel Dhanna ADCO",
+    "Number": "881",
+    "Destination": "Jebel Dhanna ADCO",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31881:P:R:8q4",
+    "Name": "City Bus 881",
+    "Description": "Ruwais ADWEA Saipam Camp",
+    "Number": "881",
+    "Destination": "Ruwais ADWEA Saipam Camp",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31882:P:H:8q4",
+    "Name": "City Bus 882",
+    "Description": "JD-Sir  Baniyas  Port",
+    "Number": "882",
+    "Destination": "JD-Sir  Baniyas  Port",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:31882:P:R:8q4",
+    "Name": "City Bus 882",
+    "Description": "Ruwais ADWEA Saipam Camp",
+    "Number": "882",
+    "Destination": "Ruwais ADWEA Saipam Camp",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32640:P:H:8q4",
+    "Name": "Reg Bus 640",
+    "Description": "Arrada Farms",
+    "Number": "640",
+    "Destination": "Arrada Farms",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32640:P:R:8q4",
+    "Name": "Reg Bus 640",
+    "Description": "Liwa, Mezaira'a Bus Station",
+    "Number": "640",
+    "Destination": "Liwa, Mezaira'a Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32655:P:H:8q4",
+    "Name": "Reg Bus 655",
+    "Description": "Hameem Shabiya Mosque",
+    "Number": "655",
+    "Destination": "Hameem Shabiya Mosque",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32655:P:R:8q4",
+    "Name": "Reg Bus 655",
+    "Description": "Liwa, Mezaira'a Bus Station",
+    "Number": "655",
+    "Destination": "Liwa, Mezaira'a Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32660:P:H:8q4",
+    "Name": "Reg Bus 660",
+    "Description": "Liwa, Mezaira'a Bus Station",
+    "Number": "660",
+    "Destination": "Liwa, Mezaira'a Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32660:P:R:8q4",
+    "Name": "Reg Bus 660",
+    "Description": "Madinat Zayed Bus Station",
+    "Number": "660",
+    "Destination": "Madinat Zayed Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32670:P:H:8q4",
+    "Name": "Reg Bus 670",
+    "Description": "Madinat Zayed Bus Station",
+    "Number": "670",
+    "Destination": "Madinat Zayed Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32670:P:R:8q4",
+    "Name": "Reg Bus 670",
+    "Description": "Tarif Bus Station",
+    "Number": "670",
+    "Destination": "Tarif Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32675:P:H:8q4",
+    "Name": "City Bus 675",
+    "Description": "Habshan ADCO Accomdn.",
+    "Number": "675",
+    "Destination": "Habshan ADCO Accomdn.",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32675:P:R:8q4",
+    "Name": "City Bus 675",
+    "Description": "Madinat Zayed Bus Station",
+    "Number": "675",
+    "Destination": "Madinat Zayed Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32686:P:H:8q4",
+    "Name": "City Bus 686",
+    "Description": "Madinat Zayed Bus Station",
+    "Number": "686",
+    "Destination": "Madinat Zayed Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32686:P:R:8q4",
+    "Name": "City Bus 686",
+    "Description": "Ghayathi Bus Station",
+    "Number": "686",
+    "Destination": "Ghayathi Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32770:P:H:8q4",
+    "Name": "City Bus 770",
+    "Description": "Tarif Bus Station",
+    "Number": "770",
+    "Destination": "Tarif Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32770:P:R:8q4",
+    "Name": "City Bus 770",
+    "Description": "Mirfa Dates Factory",
+    "Number": "770",
+    "Destination": "Mirfa Dates Factory",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32780:P:H:8q4",
+    "Name": "Reg Bus 780",
+    "Description": "Ruwais ADNOC-Bus Station",
+    "Number": "780",
+    "Destination": "Ruwais ADNOC-Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32780:P:R:8q4",
+    "Name": "Reg Bus 780",
+    "Description": "Tarif Bus Station",
+    "Number": "780",
+    "Destination": "Tarif Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32880:P:H:8q4",
+    "Name": "Reg Bus 880",
+    "Description": "Ghayathi Souq",
+    "Number": "880",
+    "Destination": "Ghayathi Souq",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32880:P:R:8q4",
+    "Name": "Reg Bus 880",
+    "Description": "Ruwais ADNOC-Bus Station",
+    "Number": "880",
+    "Destination": "Ruwais ADNOC-Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32890:P:H:8q4",
+    "Name": "Reg Bus 890",
+    "Description": "E11-Ghewifat Rest Area",
+    "Number": "890",
+    "Destination": "E11-Ghewifat Rest Area",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:32890:P:R:8q4",
+    "Name": "Reg Bus 890",
+    "Description": "Ruwais ADNOC-Bus Station",
+    "Number": "890",
+    "Destination": "Ruwais ADNOC-Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:33L65:P:H:8q4",
+    "Name": "Reg Bus L65",
+    "Description": "Mussafah Bus Station",
+    "Number": "L65",
+    "Destination": "Mussafah Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:33L65:P:R:8q4",
+    "Name": "Reg Bus L65",
+    "Description": "Liwa, Mezaira'a Bus Station",
+    "Number": "L65",
+    "Destination": "Liwa, Mezaira'a Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:33L77:P:H:8q4",
+    "Name": "Reg Bus L77",
+    "Description": "Terminal 2",
+    "Number": "L77",
+    "Destination": "Terminal 2",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:33L77:P:R:8q4",
+    "Name": "Reg Bus L77",
+    "Description": "Tarif Bus Station",
+    "Number": "L77",
+    "Destination": "Tarif Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:810W2:E:H:8q4",
+    "Name": "Waterbus W2",
+    "Description": "Delma Ferry Terminal",
+    "Number": "W2",
+    "Destination": "Delma Ferry Terminal",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:810W2:E:R:8q4",
+    "Name": "Waterbus W2",
+    "Description": "Mugharag Ferry Terminal",
+    "Number": "W2",
+    "Destination": "Mugharag Ferry Terminal",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X60:P:H:8q4",
+    "Name": "Exp Bus X60",
+    "Description": "Abu Dhabi Bus Station",
+    "Number": "X60",
+    "Destination": "Abu Dhabi Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X60:P:R:8q4",
+    "Name": "Exp Bus X60",
+    "Description": "Liwa, Mezaira'a Bus Station",
+    "Number": "X60",
+    "Destination": "Liwa, Mezaira'a Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X62:P:H:8q4",
+    "Name": "Exp Bus X62",
+    "Description": "Abu Dhabi Bus Station",
+    "Number": "X62",
+    "Destination": "Abu Dhabi Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X62:P:R:8q4",
+    "Name": "Exp Bus X62",
+    "Description": "Madinat Zayed Bus Station",
+    "Number": "X62",
+    "Destination": "Madinat Zayed Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X86:P:H:8q4",
+    "Name": "Exp Bus X86",
+    "Description": "Abu Dhabi Bus Station",
+    "Number": "X86",
+    "Destination": "Abu Dhabi Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X86:P:R:8q4",
+    "Name": "Exp Bus X86",
+    "Description": "Ghayathi - LuLu Express",
+    "Number": "X86",
+    "Destination": "Ghayathi - LuLu Express",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X87:P:H:8q4",
+    "Name": "Exp Bus X87",
+    "Description": "Abu Dhabi Bus Station",
+    "Number": "X87",
+    "Destination": "Abu Dhabi Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X87:P:R:8q4",
+    "Name": "Exp Bus X87",
+    "Description": "Muharraq Ferry Terminal",
+    "Number": "X87",
+    "Destination": "Muharraq Ferry Terminal",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X88:P:H:8q4",
+    "Name": "Exp Bus X88",
+    "Description": "Abu Dhabi Bus Station",
+    "Number": "X88",
+    "Destination": "Abu Dhabi Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X88:P:R:8q4",
+    "Name": "Exp Bus X88",
+    "Description": "Ruwais ADNOC-Bus Station",
+    "Number": "X88",
+    "Destination": "Ruwais ADNOC-Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X90:P:H:8q4",
+    "Name": "Exp Bus X90",
+    "Description": "Service Rd  / Al Ain Central Bus Station",
+    "Number": "X90",
+    "Destination": "Service Rd  / Al Ain Central Bus Station",
+    "Direction": "H",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}, {
+    "Id": "auh:90X90:P:R:8q4",
+    "Name": "Exp Bus X90",
+    "Description": "Abu Dhabi Bus Station",
+    "Number": "X90",
+    "Destination": "Abu Dhabi Bus Station",
+    "Direction": "R",
+    "Points": [],
+    "Stops": [],
+    "Type": null
+}]

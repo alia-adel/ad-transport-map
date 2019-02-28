@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Route Locations</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <main>
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container">
+                        <span class="navbar-brand mb-0 h1"><i class="fas fa-bus-alt mr-2"></i>Abu Dhabi City
+                            Buses</span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-4">
+                    <h5 class="mt-4 mb-4">Inner City Bus Lines:</h5>
+                    <div class="card mb-4">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" id="auh:11009:P:R:8q4">Bus Line 009</li>
+                            <li class="list-group-item" id="auh:11054:P:R:8q4">Bus Line 054</li>
+                        </ul>
+                    </div>
+                    <!-- Bus Stops Table -->                    
+                    <section id="busStopsSection">
+                        <h6><b>Bus Stops</b></h6>
+                        <ol id="busStops">
+
+                        </ol>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-lg-8">
+                    <div class="map-container">
+                        <div id="map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="./assets/scripts/busData.js"></script>
+    <script src="./assets/scripts/google-main.js"></script>
+    <!-- <script src="./assets/scripts/esri-main.js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3ZswaKMm-uHLI77QzXOpqppVx3XsmI18&callback=initMap"
+        async defer></script>
+</body>
+
+</html>
