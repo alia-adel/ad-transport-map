@@ -36,12 +36,30 @@ body {
     height: 100%;
 }
 
+#busStopsSection {
+    display: none;
+}
+
+#busStops {
+    max-height: 289px;
+    overflow: auto;
+    -webkit-box-shadow: 0 2px 15px 2px #dfdddd;
+    box-shadow: 0 2px 15px 2px #dfdddd;
+}
+
+#busStops li:hover {
+    background-color: hsla(0, 0%, 86%, 1);
+    cursor: pointer;
+}
+
+/* Google Maps Specific */
+
 .map-ctrl-outer {
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 3px;
     -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
-            box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
     cursor: pointer;
     margin-right: 10px;
     text-align: center;
@@ -56,22 +74,22 @@ body {
     padding-right: 5px;
 }
 
-.map-ctrl-outer:hover, .map-ctrl-inner:hover {
+.map-ctrl-outer:hover,
+.map-ctrl-inner:hover {
     color: rgba(128, 128, 128, 0.78);
 }
 
-#busStopsSection {
-    display: none;
+/* Esri Map Specifcs */
+#HomeButton {
+    position: absolute;
+    top: 95px;
+    left: 35px;
+    z-index: 50;
 }
 
-#busStops {
-    max-height: 289px;
-    overflow: auto;
-    -webkit-box-shadow: 0 2px 15px 2px #dfdddd;
-            box-shadow: 0 2px 15px 2px #dfdddd;
-}
-
-#busStops li:hover {
-    background-color: hsla(0, 0%, 86%, 1);
-    cursor: pointer;
-}
+#LocateButton {
+    position: absolute;
+    top: 140px;
+    left: 35px;
+    z-index: 50;
+  }
