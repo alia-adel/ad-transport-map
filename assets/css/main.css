@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+body {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
 .card>.list-group>.list-group-item {
     color: hsla(208, 100%, 45%, 1);
 }
@@ -35,7 +40,8 @@ body {
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 3px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
     cursor: pointer;
     margin-right: 10px;
     text-align: center;
@@ -56,4 +62,16 @@ body {
 
 #busStopsSection {
     display: none;
+}
+
+#busStops {
+    max-height: 289px;
+    overflow: auto;
+    -webkit-box-shadow: 0 2px 15px 2px #dfdddd;
+            box-shadow: 0 2px 15px 2px #dfdddd;
+}
+
+#busStops li:hover {
+    background-color: hsla(0, 0%, 86%, 1);
+    cursor: pointer;
 }

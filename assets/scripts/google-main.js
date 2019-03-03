@@ -35,7 +35,7 @@ function initMap() {
  * @param {string} busNumber 
  */
 function getRandomColor(busNumber) {
-    return '#'+Math.floor(Math.random()*16777215).toString(16);
+    return '#' + Math.floor(Math.random() * 16777215).toString(16);
 }
 
 /**
@@ -46,7 +46,10 @@ function getRandomColor(busNumber) {
  * @param {float} lng 
  */
 function setMapToPosition(lat, lng, zoom) {
-    googleMap.setCenter(mapCenterCoordinates);
+    googleMap.setCenter({
+        lat: lat,
+        lng: lng
+    });
     googleMap.setZoom(zoom);
 }
 
@@ -115,12 +118,19 @@ function getBusLineData(busLineID) {
     var busLine = busLines.find(function (line) {
         return line.Id === busLineID;
     });
-    if(busLine){
+    if (busLine) {
         $('#busStopsSection').hide();
         $('#busStops').html('');
-        for(var stop of busLine.Stops){
-            $('#busStops').append('<li>' + stop.Name +  '</li>');
-        }        
+        for (var stop of busLine.Stops) {
+            $('#busStops').append('<li id="'+ stop.Id +'">' + stop.Name + '</li>');
+        }
+        $('#busStops li').click(function(event) {
+            var foundMarker = findMarkerWithStopID(event.target.id);
+            if(foundMarker) {
+                showInfoWindow(foundMarker);
+            }            
+        });
+
         $('#busStopsSection').show();
     }
     return busLine;
@@ -140,6 +150,19 @@ function getAllBusesStops() {
 }
 
 /**
+ * @description Zooms to the given marker and loads the info window data and attach it to correct marker.
+ * @param {google.maps.Marker} marker 
+ */
+function showInfoWindow(marker) {
+    setMapToPosition(marker.position.lat(), marker.position.lng(), 15);
+    var infoWindow = new google.maps.InfoWindow({
+        content: marker.infoContent,
+        maxWidth: 200
+    });
+    infoWindow.open(googleMap, marker);
+}
+
+/**
  * @description return google map markers for all stops
  * in the given bus line data
  * @param {object} busLineData 
@@ -148,39 +171,41 @@ function drawBusLineMarkers(busLineData) {
     if (busLineData && busLineData.Stops) {
         for (var stop of busLineData.Stops) {
             var duplicateMarker = allMarkers.find(function (marker) {
-                // console.log(`
-                //     Stop (Lat, Lng): ${stop.Location[1]} , ${stop.Location[0]}
-                //     Loop Marker (Lat, Lng): ${marker.position.lat()} , ${marker.position.lng()}
-                //     Parsed: ${Number.parseFloat(marker.position.lat()).toFixed(5)}, ${Number.parseFloat(marker.position.lng()).toFixed(5)}
-                // `);
                 return (Number.parseFloat(marker.position.lat()).toFixed(5) === stop.Location[1] &&
                     Number.parseFloat(marker.position.lng()).toFixed(5) === stop.Location[0]);
             });
             if (!duplicateMarker) {
-
-
                 var marker = new google.maps.Marker({
                     position: {
                         lat: stop.Location[1],
                         lng: stop.Location[0]
                     },
-                    map: googleMap
+                    title: stop.Name,
+                    map: googleMap,
+                    stopID: stop.Id,
+                    infoContent: stop.Name
                 });
 
-                var infoWindow = new google.maps.InfoWindow({
-                    content: stop.Name,
-                    maxWidth: 200
-                });
-
-                marker.addListener('click', function () {
-                    setMapToPosition(marker.position.lat(), marker.position.lng(), 20);
-                    infoWindow.open(googleMap, marker);
+                marker.addListener('click', function () {                   
+                    showInfoWindow(this);
                 });
 
                 allMarkers.push(marker);
             }
         }
     }
+}
+
+/**
+ * @description search & return marker given the stop ID
+ * @param {string} stopID 
+ * @returns {google.maps.Marker} foundMarker
+ */
+function findMarkerWithStopID(stopID){
+    var foundMarker = allMarkers.find(function(marker) {
+        return marker.stopID === stopID;
+    });
+    return foundMarker;
 }
 
 /**
@@ -239,6 +264,8 @@ $(function () {
         drawBusLine(busLineData);
         // Draw bus line stops' markers
         drawBusLineMarkers(busLineData);
+        // Center the map tp see all markers
+        setMapToPosition(mapCenterCoordinates.lat, mapCenterCoordinates.lng, 12);
     });
 
     $('#reset-markers').click(function () {
