@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/themes/light/main.css">
+    <style>
+        html,
+        body,
+        #viewDiv {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="viewDiv"></div>
+    <button onclick="gotoBus()">Go to Bus Station</button>
+    <script src="https://js.arcgis.com/4.12/"></script>
+    <script>
+        // create map: https://developers.arcgis.com/javascript/latest/guide/create-a-starter-app/
+        // Create points: https://developers.arcgis.com/javascript/latest/guide/display-point-line-and-polygon-graphics/
+        // Change point symbol to picture: https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-PictureMarkerSymbol.html
+        /*
+            Known Limitations:   
+            ==================
+
+            Rendering SVG documents is not supported in IE11.
+            SVG documents must include a definition for width and height to load properly in Firefox.
+            Animated gif/png images are not supported. See the Custom WebGL layer view sample to learn how to accomplish this using WebGL.
+            The height and width of the symbol is restricted to no more than 200px.
+        */
+       // Display popup: https://developers.arcgis.com/javascript/latest/guide/configure-pop-ups/
+
+
+      var map, view;
+
+      function gotoBus() {
+        view.goTo({target: [54.37764, 24.47173], zoom: 15});
+       }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var mapCenterCoordinates = [54.366669, 24.466667];
+            // Create a 2D map
+            require([
+                "esri/Map",
+                "esri/views/MapView",
+                "esri/Graphic" /* For points */,
+                "esri/layers/FeatureLayer" /* for pop-ups */
+            ], function (Map, MapView, Graphic, FeatureLayer) {
+
+                map = new Map({
+                    basemap: "streets-navigation-vector"
+                });
+
+                view = new MapView({
+                    container: "viewDiv",
+                    map: map,
+                    center: mapCenterCoordinates,
+                    zoom: 11
+                });
+                
+
+                var pointList = [{
+                    title: 'Sultan Bin Zayed St / Abu Dhabi Bus Station',
+                    location: [54.37764, 24.47173]
+                }, {
+                    title: 'Sultan Bin Zayed St / Gold Center',
+                    location: [54.36683, 24.48441]
+                }, {
+                    title: 'Sultan Bin Zayed St / Masjid Salim Ghabish Khamis',
+                    location: [54.37343, 24.47596]
+                }];
+
+                var point, pictureMarkerSymbol, pointGraphic;
+                for (var i = 0; i < pointList.length; i++) {
+                    point = {
+                        type: "point",
+                        longitude: pointList[i].location[0],
+                        latitude: pointList[i].location[1]
+                    };
+
+                    pictureMarkerSymbol = {
+                        type: "picture-marker", // autocasts as new PictureMarkerSymbol()
+                        url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
+                        width: "19px",
+                        declaredClass: "map-point"
+                    };
+
+                    pointGraphic = new Graphic({
+                        geometry: point,
+                        symbol: pictureMarkerSymbol,
+                        popupTemplate: {
+                            title: pointList[i].title
+                        }
+                    });
+
+                    view.graphics.add(pointGraphic);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
