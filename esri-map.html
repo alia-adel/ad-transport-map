@@ -104,6 +104,64 @@
                     view.graphics.add(pointGraphic);
                 }
             });
+
+            // Create a 2D map
+            require([
+                "esri/Map",
+                "esri/views/MapView",
+                "esri/Graphic" /* For points */,
+                "esri/layers/FeatureLayer" /* for pop-ups */
+            ], function (Map, MapView, Graphic, FeatureLayer) {
+
+                map = new Map({
+                    basemap: "streets-navigation-vector"
+                });
+
+                view = new MapView({
+                    container: "viewDiv",
+                    map: map,
+                    center: mapCenterCoordinates,
+                    zoom: 11
+                });
+                
+
+                var pointList = [{
+                    title: 'Sultan Bin Zayed St / Abu Dhabi Bus Station',
+                    location: [54.37764, 24.47173]
+                }, {
+                    title: 'Sultan Bin Zayed St / Gold Center',
+                    location: [54.36683, 24.48441]
+                }, {
+                    title: 'Sultan Bin Zayed St / Masjid Salim Ghabish Khamis',
+                    location: [54.37343, 24.47596]
+                }];
+
+                var point, pictureMarkerSymbol, pointGraphic;
+                for (var i = 0; i < pointList.length; i++) {
+                    point = {
+                        type: "point",
+                        longitude: pointList[i].location[0],
+                        latitude: pointList[i].location[1]
+                    };
+
+                    pictureMarkerSymbol = {
+                        type: "picture-marker", // autocasts as new PictureMarkerSymbol()
+                        url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
+                        width: "19px",
+                        declaredClass: "map-point"
+                    };
+
+                    pointGraphic = new Graphic({
+                        geometry: point,
+                        symbol: pictureMarkerSymbol,
+                        popupTemplate: {
+                            title: pointList[i].title
+                        }
+                    });
+
+                    view.graphics.add(pointGraphic);
+                }
+            });
         });
     </script>
 </body>

@@ -14,7 +14,7 @@
     The height and width of the symbol is restricted to no more than 200px.
 */
 
-var map, view;
+var map, view, allPoints = new Map();
 // Abu Dhabi Coordinates
 var mapCenterCoordinates = [54.366669, 24.466667];
 var allBusesStops = [];
@@ -56,10 +56,13 @@ function getBusLineData(busLineID) {
             $('#busStops').append('<li id="' + stop.Id + '">' + stop.Name + '</li>');
         }
         $('#busStops li').click(function (event) {
-            view.goTo({
-                target: event.target.id,
-                zoom: 15
-            });
+            foundPoint = allPoints.get(event.target.id);
+            if (foundPoint) {
+                view.goTo({
+                    target: [foundPoint.longitude, foundPoint.latitude],
+                    zoom: 18
+                });
+            }
         });
         $('#busStopsSection').show();
     }
@@ -85,30 +88,37 @@ function getAllBusesStops() {
 function drawBusLinePoints(busLineData) {
     if (busLineData && busLineData.Stops) {
         var point, pictureMarkerSymbol, pointGraphic;
-        for (var stop of busLineData.Stops) {
-            point = {
-                type: "point",
-                longitude: stop.Location[0],
-                latitude: stop.Location[1]
-            };
+        require(["esri/Graphic" /* For points */ ], function (Graphic) {
+            for (var stop of busLineData.Stops) {
+                if (!this.allPoints.get(stop.Id)) {
+                    point = {
+                        type: "point",
+                        longitude: stop.Location[0],
+                        latitude: stop.Location[1]
+                    };
 
-            pictureMarkerSymbol = {
-                type: "picture-marker", // autocasts as new PictureMarkerSymbol()
-                url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
-                width: "19px",
-                declaredClass: "map-point"
-            };
+                    pictureMarkerSymbol = {
+                        type: "picture-marker", // autocasts as new PictureMarkerSymbol()
+                        url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
+                        width: "19px",
+                        declaredClass: "map-point"
+                    };
 
-            pointGraphic = new Graphic({
-                geometry: point,
-                symbol: pictureMarkerSymbol,
-                popupTemplate: {
-                    title: stop.title
+                    pointGraphic = new Graphic({
+                        geometry: point,
+                        symbol: pictureMarkerSymbol,
+                        popupTemplate: {
+                            title: stop.Name
+                        },
+                        stopID: stop.Id
+                    });
+
+                    this.allPoints.set(stop.Id, point);
+                    view.graphics.add(pointGraphic);
                 }
-            });
+            }
+        });
 
-            view.graphic.add(pointGraphic);
-        }
     }
 }
 
@@ -125,6 +135,9 @@ $(function () {
         // Draw bus line stops' markers
         drawBusLinePoints(busLineData);
         // Center the map tp see all markers
-        setMapToPosition(mapCenterCoordinates.lat, mapCenterCoordinates.lng, 12);
+        view.goTo({
+            target: mapCenterCoordinates,
+            zoom: 12
+        });
     });
 });
