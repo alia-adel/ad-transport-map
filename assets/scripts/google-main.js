@@ -128,6 +128,9 @@ function getBusLineData(busLineID) {
             var foundMarker = findMarkerWithStopID(event.target.id);
             if(foundMarker) {
                 showInfoWindow(foundMarker);
+                $('#bus-id').text(event.target.id);
+                $('#bus-name').text(foundMarker.infoContent);
+                $('.stop-info').show();
             }            
         });
 

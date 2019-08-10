@@ -38,6 +38,13 @@ require([
         center: mapCenterCoordinates,
         zoom: 11
     });
+
+    view.on("click", function (event) {
+        // Search for graphics at the clicked location. View events can be used
+        // as screen locations as they expose an x,y coordinate that conforms
+        // to the ScreenPoint definition.
+        console.log(`Long: ${event.mapPoint.longitude}, Lat: ${event.mapPoint.latitude}`);
+    });
 });
 
 /**
@@ -59,9 +66,16 @@ function getBusLineData(busLineID) {
             foundPoint = allPoints.get(event.target.id);
             if (foundPoint) {
                 view.goTo({
-                    target: [foundPoint.longitude, foundPoint.latitude],
+                    target: foundPoint.Location,
                     zoom: 18
                 });
+                view.popup.open({
+                    location: foundPoint.Location,
+                    title: foundPoint.Name // content displayed in the popup
+                });
+                $('#bus-id').text(foundPoint.Id);
+                $('#bus-name').text(foundPoint.Name);
+                $('.stop-info').show();
             }
         });
         $('#busStopsSection').show();
@@ -113,7 +127,7 @@ function drawBusLinePoints(busLineData) {
                         stopID: stop.Id
                     });
 
-                    this.allPoints.set(stop.Id, point);
+                    this.allPoints.set(stop.Id, stop);
                     view.graphics.add(pointGraphic);
                 }
             }

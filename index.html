@@ -19,37 +19,28 @@
     <main>
         <nav class="navbar navbar-dark bg-dark">
             <div class="container">
-                <span class="navbar-brand mb-0 h1"><i class="fas fa-bus-alt mr-2"></i>Abu Dhabi City
-                    Buses</span>
+                <a href="index.html"> <span class="navbar-brand mb-0 h1"><i class="fas fa-bus-alt mr-2"></i>Abu Dhabi
+                        City
+                        Buses</span></a>
             </div>
         </nav>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h5 class="mt-4 mb-4">Inner City Bus Lines:</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-lg-4">
-                    <div class="card mb-4">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" id="auh:11009:P:R:8q4">Bus Line 009</li>
-                            <li class="list-group-item" id="auh:11054:P:R:8q4">Bus Line 054</li>
-                        </ul>
+            <div class="row map-vendors mb-4 mt-4 d-flex align-items-center justify-content-between">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="card-img-top" src="assets/images/google-maps.png" alt="Google Maps Logo">
+                            <p class="card-text">View bus stops on using Google maps' Api</p>
+                            <a href="google-map.html" class="btn btn-primary">View Map</a>
+                        </div>
                     </div>
-                    <!-- Bus Stops Table -->
-                    <section id="busStopsSection">
-                        <h6><b>Bus Stops</b></h6>
-                        <ol id="busStops">
-
-                        </ol>
-                    </section>
                 </div>
-                <div class="col-xs-12 col-lg-8">
-                    <div class="map-container">
-                        <div id="map">
-                            <div id="HomeButton"></div>
-                            <div id="LocateButton"></div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="card-img-top" src="assets/images/esri-map.png" alt="Esri Maps Logo">
+                            <p class="card-text">View bus stops on using Esri maps' Api</p>
+                            <a href="esri-map.html" class="btn btn-primary">View Map</a>
                         </div>
                     </div>
                 </div>
@@ -57,20 +48,6 @@
         </div>
     </main>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="./assets/scripts/busData.js"></script>
-    <script src="./assets/scripts/main.js"></script>
-    <!-- Google Map Files -->
-    <!-- <script src="./assets/scripts/google-main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3ZswaKMm-uHLI77QzXOpqppVx3XsmI18&callback=initMap"
-        async defer></script> -->
-
-    <!-- Esri Map Files -->
-    <script src="https://js.arcgis.com/4.12/"></script>
-    <script src="./assets/scripts/esri-main.js"></script>
 </body>
 
 </html>

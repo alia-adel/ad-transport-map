@@ -10,6 +10,17 @@ body {
     transition: all 1s;
 }
 
+a {
+    color: #fff;
+}
+
+.map-vendors .card img {
+    height: 100px;
+    width: auto;
+    margin: auto;
+    max-width: 100%;
+}
+
 .card>.list-group>.list-group-item {
     color: hsla(208, 100%, 45%, 1);
 }
@@ -41,7 +52,7 @@ body {
 }
 
 #busStops {
-    max-height: 289px;
+    max-height: 197px;
     overflow: auto;
     -webkit-box-shadow: 0 2px 15px 2px #dfdddd;
     box-shadow: 0 2px 15px 2px #dfdddd;
