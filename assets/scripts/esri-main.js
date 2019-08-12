@@ -4,7 +4,7 @@
 //     == Draw points: https://developers.arcgis.com/javascript/latest/guide/display-point-line-and-polygon-graphics/
 //     == Change point symbol to picture: https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-PictureMarkerSymbol.html
 //     == Display popup: https://developers.arcgis.com/javascript/latest/guide/configure-pop-ups/
-//     == Home Button: https://developers.arcgis.com/javascript/latest/sample-code/widgets-home/index.html
+//     == Home Button: https://developers.arcgis.com/javascript/latest/sample-code/widgets-home/index.html (but the widget was used on MapView instead of ViewScene)
 /*
     Known Limitations:   
     ==================
@@ -26,9 +26,8 @@ require([
     "esri/Map" /* Create a 2D map */ ,
     "esri/views/MapView",
     "esri/Graphic" /* For points */ ,
-    "esri/widgets/Home",
-    "esri/layers/FeatureLayer" /* for pop-ups */
-], function (Map, MapView, Graphic, FeatureLayer, Home) {
+    "esri/widgets/Home"
+], function (Map, MapView, Graphic, Home) {
 
     map = new Map({
         basemap: "streets-navigation-vector"
@@ -42,11 +41,11 @@ require([
     });
 
     var homeBtn = new Home({
-          view: view
-        });
+        view: view
+    });
 
-        // Add the home button to the top left corner of the view
-        view.ui.add(homeBtn, "top-left");
+    // Add the home button to the top left corner of the view
+    view.ui.add(homeBtn, "top-left");
 
     view.on("click", function (event) {
         // Search for graphics at the clicked location. View events can be used

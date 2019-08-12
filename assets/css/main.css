@@ -19,9 +19,6 @@ a {
     width: auto;
     margin: auto;
     max-width: 100%;
-    @media screen and (max-width: 991px) {
-       height: auto;
-    }
 }
 
 .card>.list-group>.list-group-item {
@@ -107,3 +104,9 @@ a {
     left: 35px;
     z-index: 50;
 }
+
+@media only screen and (max-width: 991px) {
+    .map-vendors .card img {
+        height: auto;
+    }
+ }
