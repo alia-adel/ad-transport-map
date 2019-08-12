@@ -4,6 +4,7 @@
 //     == Draw points: https://developers.arcgis.com/javascript/latest/guide/display-point-line-and-polygon-graphics/
 //     == Change point symbol to picture: https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-PictureMarkerSymbol.html
 //     == Display popup: https://developers.arcgis.com/javascript/latest/guide/configure-pop-ups/
+//     == Home Button: https://developers.arcgis.com/javascript/latest/sample-code/widgets-home/index.html
 /*
     Known Limitations:   
     ==================
