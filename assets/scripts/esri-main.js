@@ -1,7 +1,7 @@
 // This file includes Esri Map API calls using API v4.12
 // Features Used:
 //     == Create a map: https://developers.arcgis.com/javascript/latest/guide/create-a-starter-app/
-//     == Draw points: https://developers.arcgis.com/javascript/latest/guide/display-point-line-and-polygon-graphics/
+//     == Draw points and lines: https://developers.arcgis.com/javascript/latest/guide/display-point-line-and-polygon-graphics/
 //     == Change point symbol to picture: https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-PictureMarkerSymbol.html
 //     == Display popup: https://developers.arcgis.com/javascript/latest/guide/configure-pop-ups/
 //     == Home Button: https://developers.arcgis.com/javascript/latest/sample-code/widgets-home/index.html (but the widget was used on MapView instead of ViewScene)
@@ -54,6 +54,14 @@ require([
         console.log(`Long: ${event.mapPoint.longitude}, Lat: ${event.mapPoint.latitude}`);
     });
 });
+
+/**
+ * @description get random coor for each bus
+ * @param {string} busNumber 
+ */
+function getRandomColor(busNumber) {
+    return '#' + Math.floor(Math.random() * 16777215).toString(16);
+}
 
 /**
  * @description returns bus line stops and route's points
@@ -110,9 +118,12 @@ function getAllBusesStops() {
 function drawBusLinePoints(busLineData) {
     if (busLineData && busLineData.Stops) {
         var point, pictureMarkerSymbol, pointGraphic;
-        require(["esri/Graphic" /* For points */ ], function (Graphic) {
+        require(["esri/Graphic" /* For points */,
+        "esri/geometry/Polyline" /* For Lines */ ], function (Graphic, Polyline) {
+            var busLinePath = [];
             for (var stop of busLineData.Stops) {
                 if (!this.allPoints.get(stop.Id)) {
+                    busLinePath.push(stop.Location);
                     point = {
                         type: "point",
                         longitude: stop.Location[0],
@@ -139,6 +150,25 @@ function drawBusLinePoints(busLineData) {
                     view.graphics.add(pointGraphic);
                 }
             }
+            //=== Draw bus stops connected line
+            var simpleLineSymbol = {
+                type: "simple-line",
+                color: getRandomColor(busLineData.Number),
+                width: 2
+            };
+
+            var polyline = new Polyline({
+                paths: busLinePath
+            });
+
+            var polylineGraphic = new Graphic({
+                geometry: polyline,
+                symbol: simpleLineSymbol
+            })
+
+            view.graphics
+
+                .add(polylineGraphic);
         });
 
     }
