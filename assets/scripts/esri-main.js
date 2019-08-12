@@ -25,8 +25,9 @@ require([
     "esri/Map" /* Create a 2D map */ ,
     "esri/views/MapView",
     "esri/Graphic" /* For points */ ,
+    "esri/widgets/Home",
     "esri/layers/FeatureLayer" /* for pop-ups */
-], function (Map, MapView, Graphic, FeatureLayer) {
+], function (Map, MapView, Graphic, FeatureLayer, Home) {
 
     map = new Map({
         basemap: "streets-navigation-vector"
@@ -38,6 +39,13 @@ require([
         center: mapCenterCoordinates,
         zoom: 11
     });
+
+    var homeBtn = new Home({
+          view: view
+        });
+
+        // Add the home button to the top left corner of the view
+        view.ui.add(homeBtn, "top-left");
 
     view.on("click", function (event) {
         // Search for graphics at the clicked location. View events can be used
