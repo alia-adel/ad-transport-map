@@ -1,5 +1,5 @@
 # auh-transport-map
-Abu Dhabi Bus Map
+View bus stops on both Google maps & Esri Maps.
 
-## H2
-GitHub Page link: https://alia-adel.github.io/ad-transport-map
+## GitHub Page:
+https://alia-adel.github.io/ad-transport-map
