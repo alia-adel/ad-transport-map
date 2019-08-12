@@ -19,6 +19,9 @@ a {
     width: auto;
     margin: auto;
     max-width: 100%;
+    @media screen and (max-width: 991px) {
+       height: auto;
+    }
 }
 
 .card>.list-group>.list-group-item {
