@@ -133,7 +133,7 @@ function drawBusLinePoints(busLineData) {
 
                     pictureMarkerSymbol = {
                         type: "picture-marker", // autocasts as new PictureMarkerSymbol()
-                        url: "../images/marker.png",
+                        url: "/assets/images/marker.png",
                         width: "19px",
                         declaredClass: "map-point"
                     };
