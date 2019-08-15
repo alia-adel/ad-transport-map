@@ -133,7 +133,7 @@ function drawBusLinePoints(busLineData) {
 
                     pictureMarkerSymbol = {
                         type: "picture-marker", // autocasts as new PictureMarkerSymbol()
-                        url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
+                        url: "../images/marker.png",
                         width: "19px",
                         declaredClass: "map-point"
                     };
