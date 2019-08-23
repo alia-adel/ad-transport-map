@@ -118,8 +118,9 @@ function getAllBusesStops() {
 function drawBusLinePoints(busLineData) {
     if (busLineData && busLineData.Stops) {
         var point, pictureMarkerSymbol, pointGraphic;
-        require(["esri/Graphic" /* For points */,
-        "esri/geometry/Polyline" /* For Lines */ ], function (Graphic, Polyline) {
+        require(["esri/Graphic" /* For points */ ,
+            "esri/geometry/Polyline" /* For Lines */
+        ], function (Graphic, Polyline) {
             var busLinePath = [];
             for (var stop of busLineData.Stops) {
                 if (!this.allPoints.get(stop.Id)) {
@@ -165,13 +166,20 @@ function drawBusLinePoints(busLineData) {
             var polylineGraphic = new Graphic({
                 geometry: polyline,
                 symbol: simpleLineSymbol
-            })
+            });
 
-            view.graphics
-
-                .add(polylineGraphic);
+            view.graphics.add(polylineGraphic);
         });
 
+    }
+}
+
+/**
+ * @description remove all points & lines from map 
+ */
+function clearMap() {
+    if (this.view && this.view.graphics) {
+        this.view.graphics.items = [];
     }
 }
 
