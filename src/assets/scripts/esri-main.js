@@ -116,11 +116,10 @@ function getBusLineData(busLineID) {
                     });
                     view.popup.open({
                         location: foundPoint.Location,
-                        title: `Bus ${busLine.split(':')[1].replace('110','').replace('12','')}`, // content displayed in the popup
+                        title: `Bus ${busLine.Id.split(':')[1].replace('110','').replace('12','')}`, // content displayed in the popup
                         content: foundPoint.Name
                     });
                     $('#bus-name').text('');
-                    $('#busStopsSection').hide();
                 }
             }
         });
