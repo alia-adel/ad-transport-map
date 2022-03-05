@@ -104,22 +104,24 @@ function getBusLineData(busLineID) {
         $('#busStopsSection').hide();
         $('#busStops').html('');
         for (var stop of busLine.Stops) {
-            $('#busStops').append('<li id="' + stop.Id + '">' + stop.Name + '</li>');
+            $('#busStops').append(`<li id="${stop.Id}">${stop.Name}</li>`);
         }
         $('#busStops li').click(function (event) {
             foundPoint = allPoints.get(event.target.id);
             if (foundPoint) {
-                view.goTo({
-                    target: foundPoint.Location,
-                    zoom: 18
-                });
-                view.popup.open({
-                    location: foundPoint.Location,
-                    title: `Bus ${foundPoint.Number}: ${foundPoint.Name}` // content displayed in the popup
-                });
-                $('#bus-id').text(foundPoint.Id);
-                $('#bus-name').text(foundPoint.Name);
-                $('.stop-info').show();
+                if (foundPoint) {
+                    view.goTo({
+                        target: foundPoint.Location,
+                        zoom: 18
+                    });
+                    view.popup.open({
+                        location: foundPoint.Location,
+                        title: `Bus ${busLine.split(':')[1].replace('110','').replace('12','')}`, // content displayed in the popup
+                        content: foundPoint.Name
+                    });
+                    $('#bus-name').text('');
+                    $('#busStopsSection').hide();
+                }
             }
         });
         $('#busStopsSection').show();
@@ -208,6 +210,16 @@ function drawBusLinePoints(busLineData) {
 }
 
 /**
+ * @description draw all available lines on map
+ */
+function selectAllLines() {
+    clearMap();
+    busLinesDetailed.forEach(line => {
+        drawBusLinePoints(line);
+    });
+}
+
+/**
  * @description remove all points & lines from map 
  */
 function clearMap() {
@@ -218,6 +230,7 @@ function clearMap() {
     $('.card > .list-group > .list-group-item').removeClass('active');
     $('#busStopsSection').hide();
     $('#busStops').html('');
+    document.getElementById('bus-number').innerText = '';
 }
 
 $(function () {
@@ -250,5 +263,6 @@ $(function () {
             target: mapCenterCoordinates,
             zoom: 12
         });
+        document.getElementById('bus-number').innerText = event.target.innerText;
     });
 });

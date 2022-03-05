@@ -22,7 +22,7 @@ a {
 }
 
 .list-group.list-group-flush {
-    max-height: calc(100vh - 100px);
+    max-height: 197px;
     overflow-y: auto;
 }
 
@@ -71,6 +71,10 @@ a {
     overflow: auto;
     -webkit-box-shadow: 0 2px 15px 2px #dfdddd;
     box-shadow: 0 2px 15px 2px #dfdddd;
+}
+
+#busStops li {
+    line-height: 2;
 }
 
 #busStops li:hover {

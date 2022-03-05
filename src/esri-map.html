@@ -28,27 +28,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h5 class="mt-4 mb-4">Inner City Bus Lines:</h5>
+                    <h5 class="mt-4 mb-4">Inner City Bus Lines:<span class="ml-2"><strong
+                                id="bus-number"></strong></span></h5>
+                    <div class="d-flex align-items-center flex-wrap mb-2">
+                        <button type="button" class="btn btn-secondary mr-2" onclick="clearMap()">Clear Map<em
+                                class="fas fa-redo-alt pl-2"></em></button>
+                        <button type="button" class="btn btn-primary" onclick="selectAllLines()">Map all lines</button>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 col-lg-4">
                     <div class="card mb-4">
-                        <input type="search" class="form-control live-search-box" placeholder="search here">
+                        <input type="search" class="form-control live-search-box mb-2" placeholder="search here">
                         <ul class="list-group list-group-flush live-search-list">
 
                         </ul>
                     </div>
-                    <!-- Bus Stop Info -->
-                    <section class="stop-info  mb-4" style="display: none;">
-                        <h6><b>Bus Stop Info:</b></h6>
-                        <div class="card">
-                            <div class="col-12">
-                                <div id="bus-id"></div>
-                                <div id="bus-name"></div>
-                            </div>
-                        </div>
-                    </section>
                     <!-- Bus Stops Table -->
                     <section id="busStopsSection">
                         <h6><b>Bus Stops</b></h6>
