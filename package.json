@@ -1,0 +1,26 @@
+{
+  "name": "ad-transport-map",
+  "version": "1.0.0",
+  "description": "View bus stops on both Google maps & Esri Maps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alia-adel/ad-transport-map.git"
+  },
+  "author": "Alia Adel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alia-adel/ad-transport-map/issues"
+  },
+  "homepage": "https://github.com/alia-adel/ad-transport-map#readme",
+  "devDependencies": {
+    "g": "^2.0.1",
+    "gulp": "^4.0.2",
+    "gulp-rollup": "^2.17.0",
+    "gulp-uglify": "^3.0.2",
+    "rollup": "^2.69.1"
+  }
+}

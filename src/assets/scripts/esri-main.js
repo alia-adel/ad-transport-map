@@ -21,14 +21,16 @@ var mapCenterCoordinates = [54.366669, 24.466667];
 var allBusesStops = [];
 var allBusLines = [];
 var iconPath = "M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z";
+var busColors = new Map();
 
 require([
     "esri/Map" /* Create a 2D map */ ,
     "esri/views/MapView",
     "esri/Graphic" /* For points */ ,
-    "esri/widgets/Home"
-], function (Map, MapView, Graphic, Home) {
-
+    "esri/widgets/Home",
+    "esri/widgets/Search",
+    "esri/widgets/Locate"
+], function (Map, MapView, Graphic, Home, Search, Locate) {   
     map = new Map({
         basemap: "streets-navigation-vector"
     });
@@ -40,12 +42,38 @@ require([
         zoom: 11
     });
 
+    
+    var searchWidget = new Search({
+        view: view,
+        label : "Search Location",
+        locationEnabled : true,
+        resultGraphicEnabled: true,
+        popupEnabled: true
+    });
+
+    searchWidget.on("select-result", function(event){
+        console.log("The selected search result: ", event);
+    });
+
+    view.ui.add(searchWidget, "top-right");
+
     var homeBtn = new Home({
         view: view
     });
 
     // Add the home button to the top left corner of the view
     view.ui.add(homeBtn, "top-left");
+
+    let locateWidget = new Locate({
+        view: view,   // Attaches the Locate button to the view
+        graphic: new Graphic({
+            symbol: { type: "simple-marker" }  // overwrites the default symbol used for the
+            // graphic placed at the location of the user when found
+        })
+    });
+    
+    view.ui.add(locateWidget, "top-right");
+
 
     view.on("click", function (event) {
         // Search for graphics at the clicked location. View events can be used
@@ -69,7 +97,7 @@ function getRandomColor(busNumber) {
  * @param {string} busLineID 
  */
 function getBusLineData(busLineID) {
-    var busLine = busLines.find(function (line) {
+    var busLine = busLinesDetailed.find(function (line) {
         return line.Id === busLineID;
     });
     if (busLine) {
@@ -87,7 +115,7 @@ function getBusLineData(busLineID) {
                 });
                 view.popup.open({
                     location: foundPoint.Location,
-                    title: foundPoint.Name // content displayed in the popup
+                    title: `Bus ${foundPoint.Number}: ${foundPoint.Name}` // content displayed in the popup
                 });
                 $('#bus-id').text(foundPoint.Id);
                 $('#bus-name').text(foundPoint.Name);
@@ -133,8 +161,8 @@ function drawBusLinePoints(busLineData) {
 
                     pictureMarkerSymbol = {
                         type: "picture-marker", // autocasts as new PictureMarkerSymbol()
-                        // url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
-                        url: "https://alia-adel.github.io/ad-transport-map/assets/images/marker.png",
+                        url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
+                        // url: "https://alia-adel.github.io/ad-transport-map/assets/images/marker.png",
                         width: "19px",
                         declaredClass: "map-point"
                     };
@@ -143,7 +171,8 @@ function drawBusLinePoints(busLineData) {
                         geometry: point,
                         symbol: pictureMarkerSymbol,
                         popupTemplate: {
-                            title: stop.Name
+                            title: `Bus ${busLineData.Number}`,
+                            content: `${stop.Name}`
                         },
                         stopID: stop.Id
                     });
@@ -153,9 +182,13 @@ function drawBusLinePoints(busLineData) {
                 }
             }
             //=== Draw bus stops connected line
+            const alreadyExistingLine = busColors.get(busLineData.Number);
+            const lineColor = alreadyExistingLine? alreadyExistingLine.color: getRandomColor(busLineData.Number);
+            busColors.set(busLineData.Number, lineColor);
+            
             var simpleLineSymbol = {
                 type: "simple-line",
-                color: getRandomColor(busLineData.Number),
+                color: lineColor,
                 width: 2
             };
 
@@ -181,9 +214,26 @@ function clearMap() {
     if (this.view && this.view.graphics) {
         this.view.graphics.items = [];
     }
+    this.allPoints = new Map();
+    $('.card > .list-group > .list-group-item').removeClass('active');
+    $('#busStopsSection').hide();
+    $('#busStops').html('');
 }
 
 $(function () {
+     // Clear the list
+     document.querySelector('.card > .list-group').innerHTML = '';
+     busLines.filter(_ => busLinesDetailed.find(line => line.Id === _.Id)).forEach(line => {
+        let item = document.createElement('li');
+        item.id = line.Id;
+        item.classList.add('list-group-item');
+        item.innerText = `Bus ${line.Number} (${line.Direction})`;
+        document.querySelector('.card > .list-group').appendChild(item);
+     });
+
+     // enable search lines
+     bindSearchLines();
+
     /**
      * @description bind click action on each bus line in the list to get its
      * points and stops

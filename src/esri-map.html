@@ -34,9 +34,9 @@
             <div class="row">
                 <div class="col-xs-12 col-lg-4">
                     <div class="card mb-4">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item" id="auh:11009:P:R:8q4">Bus Line 009</li>
-                            <li class="list-group-item" id="auh:11054:P:R:8q4">Bus Line 054</li>
+                        <input type="search" class="form-control live-search-box" placeholder="search here">
+                        <ul class="list-group list-group-flush live-search-list">
+
                         </ul>
                     </div>
                     <!-- Bus Stop Info -->
@@ -59,11 +59,11 @@
                 </div>
                 <div class="col-xs-12 col-lg-8">
                     <div class="map-container">
-                        <div id="map">                            
+                        <div id="map">
                         </div>
-                        <button class="esri-ui-corner esri-reset-btn" onclick="clearMap()">                               
-                            <div class="esri-component esri-widget--button esri-widget" role="button"
-                                tabindex="0" aria-label="Default map view" title="Clear map"><em class="fas fa-redo-alt"></em><span
+                        <button class="esri-ui-corner esri-reset-btn" onclick="clearMap()">
+                            <div class="esri-component esri-widget--button esri-widget" role="button" tabindex="0"
+                                aria-label="Default map view" title="Clear map"><em class="fas fa-redo-alt"></em><span
                                     class="esri-icon-font-fallback-text">Clear map</span></div>
                         </button>
                     </div>
@@ -75,7 +75,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
-    <script src="./assets/scripts/busData.js"></script>
+    <script src="./assets/scripts/searchLines.js"></script>
+    <script src="./assets/scripts/BusPoints/BusData.js"></script>
+    <script src="./assets/scripts/BusPoints/BusLines.js"></script>
+
+    <!-- <script src="./assets/scripts/busData.js"></script> -->
     <script src="./assets/scripts/main.js"></script>
 
     <!-- Esri Map Files -->

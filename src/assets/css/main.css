@@ -21,6 +21,11 @@ a {
     max-width: 100%;
 }
 
+.list-group.list-group-flush {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
 .card>.list-group>.list-group-item {
     color: hsla(208, 100%, 45%, 1);
 }
@@ -51,7 +56,7 @@ a {
 .map-container .esri-reset-btn {
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 55px;
     z-index: 1;
     background: none;
     border: none;
@@ -113,6 +118,17 @@ a {
     top: 140px;
     left: 35px;
     z-index: 50;
+}
+
+.esri-ui-top-left.esri-ui-corner {
+    padding-top: 40px;
+}
+.esri-locate.esri-widget--button.esri-widget {
+    margin-top: 40px;
+}
+
+.esri-ui-top-right.esri-ui-corner, .esri-component.esri-search.esri-widget {
+    width: 100%;
 }
 
 @media only screen and (max-width: 991px) {
