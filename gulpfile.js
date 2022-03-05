@@ -34,9 +34,9 @@ function minify(cb) {
 exports.default = function() {
     return src('src/**/*.js')
     .pipe(uglify())
-    .pipe(rollup({
-        // any option supported by Rollup can be set here.
-        input: ['']
-    }))
+    // .pipe(rollup({
+    //     // any option supported by Rollup can be set here.
+    //     input: ['']
+    // }))
     .pipe(dest('dist/'));
   }
